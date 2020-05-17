@@ -15,8 +15,9 @@ h1 {
     left: 200px;
     color: brown;
 }
-.icon a:hover {
+.icon:hover {
     color: black;
+    opacity: 0.5;
 }
 .menu {
     overflow: hidden;
