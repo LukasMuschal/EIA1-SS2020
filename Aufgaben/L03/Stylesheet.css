@@ -8,18 +8,62 @@ h1 {
     color: brown;
     font-size: xx-large;
 }
-#menu {
-    background-color: burlywood;
+.icon {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    right: 200px;
-    padding: 5px 10px;
-
+    top: 20px;
+    left: 200px;
+    color: brown
+}
+.icon:hover {
+    color: black;
+}
+.menu {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 220px;
+    border-radius: 10px 10px 10px 10px;
+}
+.menu a:hover {
+    background: black;
+    color: brown;
 }
 
-#Foto {
+.auswahl {
+    color: brown;
+}
+#Content {
     width: 800px;
-    padding: 50px;
-    border: chocolate;
+    height: 150px;
+    margin:  0 auto;
+    text-align: center;
+    display: block;
+}
+
+.anmelden {
+    color: brown;
+    font-size: 25px;
+    width: 300px;
+    padding: 3px 3px 3px 3px;
+    
+}
+.Kontakt {
+    color: white;
+    background-color: gray;
+    width: 300px;
+    padding: 3px 3px 3px 3px;
+}
+
+.Nachricht {
+    color: white;
+    background-color: gray;
+    width: 300px;
+    padding: 3px 3px 3px 3px;
+}
+.Absenden {
+    color: white;
+    background-color: gray;
+    width: 75px;
+    padding: 3px 3px 3px 3px;
 }

@@ -3,18 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Stylesheet.css">
     <title>Contact für Aufgabe 2</title>
   </head>
    <header>  
-    <h1>Mein Portfolio</h1>
-    <table>
+    <h1>Kontakt</h1>
+    <table class="menu">
         <td>
             <a href="Portfolio.html">Portfolio</a>
         </td>
         <td>
             <a href="AboutMe.html">AboutMe</a>
         </td>
+        <td>
+            <a class="auswahl" href="Contact.html">Kontakt</a>
+        </td>
     </table>
+    <a href="https://www.Facebook.com" target="_blank">
+        <img class="icon" src="images/icon_facebook.png"></a>
    </header>
   <body>
     <main>
@@ -25,6 +31,24 @@
         <section>
             Über meinen Instagram Account: <a href="https://www.instagram.com/luuuk_mu/">luuuk_mu</a>
         </section>
+            <div class="anmelden">Melde dich</div>
+            
+                <div class="Kontakt">  
+                <input name="name" type="text"  placeholder="Name" /> 
+                </div> 
+                <br>
+                <div class="Kontakt">
+                <input name="email" type="text"  placeholder="Email" />
+                </div>
+                <br>
+                <div class="Kontakt">
+                <textarea name="text" placeholder="Comment"></textarea>
+                </div>
+                <br>
+                <div class="Absenden">
+                <input type="submit" value="absenden"/>
+                </div>
+            
     </main>
     </body>
 </html>
