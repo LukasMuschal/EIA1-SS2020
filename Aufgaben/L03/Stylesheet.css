@@ -23,6 +23,7 @@ h1 {
     overflow: hidden;
     background-color: black;
     position: fixed;
+    text-decoration: none;
     top: 0;
     right: 220px;
     border-radius: 10px 10px 10px 10px;
