@@ -70,3 +70,6 @@ h1 {
     width: 75px;
     padding: 3px 3px 3px 3px;
 }
+a {
+    text-decoration: none;
+}
