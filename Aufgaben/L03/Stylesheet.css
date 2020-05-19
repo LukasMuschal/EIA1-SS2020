@@ -7,6 +7,12 @@ body {
 h1 {
     color: brown;
     font-size: xx-large;
+    text-shadow: 1px 1px black;
+}
+
+h2 {
+    color: black;
+    text-shadow: 1px 1px brown;
 }
 .icon {
     overflow: hidden;
