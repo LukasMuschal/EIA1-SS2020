@@ -6,3 +6,8 @@
 body {
     background-image: url(images/bg.png);
 }
+.bandelore{
+    position: absolute;
+    top: 250px;
+    left: 470px;
+}
