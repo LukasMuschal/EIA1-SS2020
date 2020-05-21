@@ -7,18 +7,23 @@ body {
     background-image: url(images/bg.png);
 }
 @font-face{
-    src: url(fonts/jellyka_delicios_cake-webfont.woff2);
+    src: url(fonts/jellyka_delicious_cake-webfont.woff2);
     font-family: Jellyka;
  }
 .text {
     color: white;
     font-family: Jellyka;
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 50px;
     display: inline;
 }
-@font-face{
-   src: url(fonts/jellyka_delicios_cake-webfont.woff2);
-   font-family: Jellyka;
+
+h1 {
+    color: white;
+    font-family: Jellyka;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: inline;
 }
