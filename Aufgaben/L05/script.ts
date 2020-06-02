@@ -10,6 +10,7 @@ var asia08: number = 12.954;
 var asia18: number = 16.274;
 var australia08: number = 1.993;
 var australia18: number = 2.100;
+
 var gesamt: number = africa18 + southamerica18 + northeamerica18 + asia18 + australia18;
 
-console.log(gesamt);
+console.log("Die Emission von Afrika ist:" + africa18);
