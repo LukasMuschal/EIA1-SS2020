@@ -12,4 +12,4 @@ var australia08: number = 1.993;
 var australia18: number = 2.100;
 var gesamt: number = africa18 + southamerica18 + northeamerica18 + asia18 + australia18;
 
-console.log("Afrika: Die Emission von Afrika ist: " + africa18 + " kg CO2");
+console.log("HEY");
