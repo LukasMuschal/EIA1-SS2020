@@ -1,4 +1,4 @@
-
+window.addEventListener("load" , function() {
 var gesamt: number = 31.114;
 
 var europeabsolute: number = 4.209;
@@ -7,12 +7,20 @@ var europegrowth: number = ((4.209 - 4.965) / 4.965) * 100;
 var growtheurope: number = 4.209 - 4.965;
 
 function europa() {
-     document.querySelector(".europe")?.addEventListener("click" , europa);
      document.querySelector("#titleRegion")?.innerHTML + "Europa";
      document.querySelector(".chart")?.setAttribute("style" , "height: " + europerelative + "px");
 
-     document.querySelector("#europa1")?.innerHTML = europeabsolute;
+     document.querySelector("#europa1").innerHTML = europeabsolute;
      document.querySelector("#europa1t").innerHTML = "Emission absolute in Europe 2018";
+
+     document.querySelector("#europa2")?.innerHTML = europerelative + "%";
+     document.querySelector("#europa2t")?.innerHTML = "Relative to total worlds Emission";
+
+     document.querySelector("#europa3")?.innerHTML = europegrowth + "%";
+     document.querySelector("#europa3t")?.innerHTML = "Growth rate between 2008 and 2018 (in %)";
+
+     document.querySelector("#europa4")?.innerHTML = growtheurope;
+     document.querySelector("#europa4t")?.innerHTML = "Growth rate between 2008 and 2018 (absolute)";
 
 }
 
@@ -41,3 +49,6 @@ var australiarelative: number = 100 / (gesamt / 2.100);
 var australiagrowth: number = ((2.100 - 1.993) / 1.993) * 100;
 var growthaustralia: number = 2.100 - 1.993;
 
+document.querySelector(".europe")?.addEventListener("click" , europa);
+
+})
