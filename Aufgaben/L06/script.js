@@ -1,21 +1,13 @@
 "use strict";
-var africa08 = 1.028;
-var africa18 = 1.235;
-var southamerica08 = 1.132;
-var southamerica18 = 1.261;
-var europe08 = 4.965;
-var europe18 = 4.209;
-var northamerica08 = 6.600;
-var northamerica18 = 6.035;
-var asia08 = 12.954;
-var asia18 = 16.274;
-var australia08 = 1.993;
-var australia18 = 2.100;
-var gesamt = africa18 + southamerica18 + europe18 + northamerica18 + asia18 + australia18;
+var gesamt = 31.114;
 var europeabsolute = 4.209;
 var europerelative = 100 / (gesamt / 4.209);
 var europegrowth = ((4.209 - 4.965) / 4.965) * 100;
 var growtheurope = 4.209 - 4.965;
+function europa() {
+    document.querySelector(".europe")?.addEventListener("click", europa);
+    document.querySelector("#titleRegion")?.innerHTML + "Europa";
+}
 var northamericaabsolute = 6.035;
 var northamericarelative = 100 / (gesamt / 6.035);
 var northamericagrowth = ((6.035 - 6.600) / 6.600) * 100;
@@ -36,10 +28,4 @@ var australiaabsolute = 2.100;
 var australiarelative = 100 / (gesamt / 2.100);
 var australiagrowth = ((2.100 - 1.993) / 1.993) * 100;
 var growthaustralia = 2.100 - 1.993;
-function europa() {
-    document.querySelector("#titleRegion").innerHTML = "Europa";
-    document.querySelector(".chart")?.setAttribute("style", "height: " + europerelative + "px");
-    document.querySelector("#europa1").innerHTML = "europeabsolute";
-    document.querySelector("#europa1t")?.innerHTML = "Emission Absolute of Europe in 2018";
-}
 //# sourceMappingURL=script.js.map
