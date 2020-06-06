@@ -7,6 +7,9 @@ var growtheurope = 4.209 - 4.965;
 function europa() {
     document.querySelector(".europe")?.addEventListener("click", europa);
     document.querySelector("#titleRegion")?.innerHTML + "Europa";
+    document.querySelector(".chart")?.setAttribute("style", "height: " + europerelative + "px");
+    document.querySelector("#europa1")?.innerHTML = europeabsolute;
+    document.querySelector("#europa1t").innerHTML = "Emission absolute in Europe 2018";
 }
 var northamericaabsolute = 6.035;
 var northamericarelative = 100 / (gesamt / 6.035);
